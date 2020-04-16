@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<br />
+<div class="panel panel-info">
+    <div class="panel-heading">
+        Upload XML File
+    </div>
+    <div class="panel-body">
+        @using (Html.BeginForm("ImportXML", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <label>Upload File:</label>
+            <input name="fileUpload" type="file" />
+            <br />
+            <input type="submit" name="Submit" id="Submit" value="Upload" class="btn btn-primary" />
+        }
+    </div>
+</div>
+
+@Html.ActionLink("Customers List", "Index", "Customers", null, new { @class = "btn btn-primary" })
+
+
+
+
+
+
+

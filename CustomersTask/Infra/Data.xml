@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customers>
+  <customer>
+    <ID>1</ID>
+    <CustomerNo>AB123456</CustomerNo>
+    <FirstName>Masoud1</FirstName>
+    <LastName>Babaei1</LastName>
+    <Tel>030456789</Tel>
+    <Cell>030654721</Cell>
+    <Email>k@mdddd.com</Email>
+    <Addresses>
+      <address>
+        <ID>10</ID>
+        <customerID>1</customerID>
+        <Title>fgsfg1112</Title>
+        <Street>Bismarckallee 23.1112</Street>
+        <PLZ>1419322211</PLZ>
+        <CityID>1</CityID>
+        <CustomerID>1</CustomerID>
+      </address>
+    </Addresses>
+    <Addresses>
+      <address>
+        <ID>11</ID>
+        <customerID>1</customerID>
+        <Title>tset</Title>
+        <Street>tset</Street>
+        <PLZ>545345</PLZ>
+        <CityID>2</CityID>
+      </address>
+    </Addresses>
+    <Addresses>
+      <address>
+        <ID>12</ID>
+        <customerID>1</customerID>
+        <Title>gghdfgh</Title>
+        <Street>dfghdfgh</Street>
+        <PLZ>56456456</PLZ>
+        <CityID>3</CityID>
+      </address>
+    </Addresses>
+    <Addresses>
+      <address>
+        <ID>13</ID>
+        <customerID>1</customerID>
+        <Title>bncvbncv</Title>
+        <Street>cvbncvbn</Street>
+        <PLZ>89789789</PLZ>
+        <CityID>1</CityID>
+      </address>
+    </Addresses>
+  </customer>
+  <customer>
+    <ID>2</ID>
+    <CustomerNo>we534535</CustomerNo>
+    <FirstName>Jahn</FirstName>
+    <LastName>rerqwer</LastName>
+    <Tel>020456789</Tel>
+    <Cell>020654721</Cell>
+    <Email>j@m.com</Email>
+    <Addresses>
+      <address>
+        <ID>9</ID>
+        <customerID>2</customerID>
+        <Title>22sadfasdf</Title>
+        <Street>asdfasdf</Street>
+        <PLZ>4523452</PLZ>
+        <CityID>1</CityID>
+      </address>
+    </Addresses>
+  </customer>
+  <customer>
+    <ID>5</ID>
+    <CustomerNo>456356</CustomerNo>
+    <FirstName>Masoud666</FirstName>
+    <LastName>Babaei666</LastName>
+    <Tel>6666</Tel>
+    <Cell>6666</Cell>
+    <Email>masoud_babaie@yahoo.com</Email>
+  </customer>
+  <customer>
+    <ID>6</ID>
+    <CustomerNo>5452</CustomerNo>
+    <FirstName>dfgsdfg</FirstName>
+    <LastName>vbxcvb</LastName>
+    <Tel>4564563</Tel>
+    <Cell>5635634</Cell>
+    <Email>ncvbn@fgdfg.com</Email>
+    <Addresses>
+      <address>
+        <ID>7</ID>
+        <customerID>6</customerID>
+        <Title>fgsfg81</Title>
+        <Street>Bismarckallee 23.81</Street>
+        <PLZ>1419381</PLZ>
+        <CityID>2</CityID>
+        <CustomerID>6</CustomerID>
+      </address>
+    </Addresses>
+    <Addresses />
+    <Addresses />
+    <Addresses />
+    <Addresses />
+    <Addresses />
+  </customer>
+</Customers>

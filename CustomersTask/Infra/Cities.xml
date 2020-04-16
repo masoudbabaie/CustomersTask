@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Cities>
+  <City>
+    <ID>1</ID>
+    <CityName>Berlin</CityName>
+  </City>
+
+  <City>
+    <ID>2</ID>
+    <CityName>Hamburg</CityName>
+  </City>
+
+  <City>
+    <ID>3</ID>
+    <CityName>Tehran</CityName>
+  </City>
+</Cities>

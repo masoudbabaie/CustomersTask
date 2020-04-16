@@ -1,0 +1,56 @@
+﻿@model List<CustomersTask.Models.AddressMetaData>
+
+    <table class="table table-hover">
+        <tr style="background-color:gainsboro;">
+            <th>
+                <label>Title</label>
+            </th>
+            <th>
+                <label>Street</label>
+            </th>
+            <th>
+                <label>PLZ</label>
+            </th>
+            <th>
+                <label>City</label>
+            </th>
+            <th>
+                
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Street)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PLZ)
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.City.CityName)
+
+                </td>
+
+                <td>
+                    @Html.ActionLink("Edit", "Edit", "Addresses", new { id = item.ID }, new { @class = "btn btn-primary" })|
+                    @Html.ActionLink("Delete", "Delete", "Addresses", new { id = item.ID }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+
+
+
+    </table>
+    <br />
+    <p>
+        @Html.ActionLink(linkText: "Add New Address", actionName: "Create", controllerName: "Addresses", routeValues: new { id = ViewBag.CustomerID }, htmlAttributes: new { @class = "btn btn-primary" })
+        
+    </p>
